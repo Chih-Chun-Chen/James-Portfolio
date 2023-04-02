@@ -17,7 +17,7 @@ header h1 {
 }
 
 nav {
-    height: 8%;
+    height: 10%;
     display: flex;
     justify-content:space-around;
 }
@@ -49,16 +49,72 @@ nav a:hover {
     height: 94vh;
   }
 
-main {
+  .containMainAbout {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    height: 94vh;
+  }
+
+  .containMainEducation {
+    display: flex;
+    flex-direction: row;
+    height: 94vh;
+  }
+
+  aside {
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 60%;
+    color: rgb(0, 0, 0);
+  }
+
+  aside p {
+    font-size: large;
+    line-height: 2;
+  }
+
+  #educationAside {
+    width: 40%;
+    color: white;
+  }
+
+  .table main schedule{
+    border: thin solid rgb(40, 113, 207);
+    border-spacing: 0;
+    border-collapse: collapse;
+    caption-side: top;
+}
+
+.table {
+    width: 160%;
     height: 80%;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-main h1 p{
-    color: white;
+.table td, th {
+    border: thin solid rgb(40, 113, 207);
 }
 
-.mainText {
+.table thead {
+    background-color: rgb(10, 142, 243);
+    color: rgb(255, 255, 255);
+}
+
+.table tfoot {
+    background-color: rgb(169, 10, 243);
+    color: rgb(240, 240, 240);
+}
+
+.table tbody tr:nth-child {
+    background-color: rgb(80, 255, 168);
+}
+
+main {
     color: white;
+    height: 80%;
 }
 
 #firstLine {
@@ -86,13 +142,18 @@ main h1 p{
 }
 
 footer {
-    height: 5%;
     position: fixed;
     right: 1%;
 }
 
 footer p {
     color: white;
+}
+
+img {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 59%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -114,6 +175,20 @@ footer p {
         display: flex;
         flex-direction: column;
         height:auto;
+    }
+
+    .containMain {
+        display: flex;
+        flex-direction: column;
+        height:auto;
+    }
+
+    aside {
+        order: 2;
+    }
+
+    .aboutImg {
+        order: 1;
     }
 
     main {
