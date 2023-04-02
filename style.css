@@ -90,7 +90,7 @@ nav a:hover {
     width: 160%;
     height: 80%;
     margin-top: 20%;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 10%;
 }
 
@@ -107,11 +107,6 @@ nav a:hover {
     background-color: rgb(169, 10, 243);
     color: rgb(240, 240, 240);
 }
-
-.table tbody tr:nth-child {
-    background-color: rgb(80, 255, 168);
-}
-
 main {
     color: white;
     height: 80%;
