@@ -177,7 +177,13 @@ img {
         height:auto;
     }
 
-    .containMain {
+    .containMainAbout {
+        display: flex;
+        flex-direction: column;
+        height:auto;
+    }
+
+    .containMainEducation {
         display: flex;
         flex-direction: column;
         height:auto;
@@ -187,7 +193,7 @@ img {
         order: 2;
     }
 
-    .aboutImg {
+    .uptodowan {
         order: 1;
     }
 
