@@ -151,6 +151,20 @@ img {
     width: 59%;
 }
 
+.card {
+    background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+  }
+  
+  .card img {
+    width: 10%;
+  height: 10%;
+  }
+  
+
 @media only screen and (max-width: 600px) {
     body {
         margin: 0;
