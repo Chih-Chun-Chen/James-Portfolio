@@ -333,7 +333,6 @@ img {
     body {
         margin: 0;
         background-color: rgb(20, 20, 20);
-        overflow: hidden;
     }
 
     nav {
@@ -365,6 +364,11 @@ img {
 
     aside {
         order: 2;
+    }
+
+    .vcard-info {
+      width: 100%;
+      padding: 20px;
     }
 
     .uptodowan {
