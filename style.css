@@ -43,6 +43,10 @@ nav a:hover {
     color: rgb(255, 255, 255);
 }
 
+#homeAside p{
+  color: white;
+}
+
 .container {
     display: flex;
     flex-direction: column;
