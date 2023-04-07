@@ -25,8 +25,11 @@
             <main>
             <h1>Receive your information</h1>
             Name: <?php print $_POST['name'] ?>
+            <br>
             Email: <?php print $_POST['email'] ?>
+            <br>
             Phone: <?php print $_POST['phone'] ?>
+            <br>
             Comment: <?php print $_POST['comment'] ?>
             </main>
     </div>
