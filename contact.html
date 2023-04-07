@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -21,6 +21,24 @@
                 <a href="https://www.facebook.com/profile.php?id=100002197589321" class="icon"><i class='fa fa-facebook-f' style='font-size:36px'></i></a>
                 <a href="https://www.instagram.com/chen_zhi_jun/" class="icon"><i class="fa fa-instagram" style="font-size:36px"></i></a>
             </nav>
+
+            <main>
+                <form action="submit.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" required></textarea>
+                    
+                    <input type="submit" value="Submit">
+                  </form>
+        </main>
     </div>
         <footer>
             <p>&copy; 2023 James Chen</p>
