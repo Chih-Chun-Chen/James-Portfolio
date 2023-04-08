@@ -236,6 +236,19 @@ img {
     font-size: 1rem;
     color: #aaa7a7;
   }
+
+  #ACEHAppButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .cardDetail {
+    color: white;
+  }
   
   form {
     display: flex;
@@ -272,6 +285,21 @@ img {
   textarea {
     height: 120px;
   }
+
+  .video{
+    margin-top: 3%;
+    margin-left: 40%;
+    width: 20%;
+  }
+
+  video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
   
   input[type="submit"] {
     background-color: #c41e3a;
